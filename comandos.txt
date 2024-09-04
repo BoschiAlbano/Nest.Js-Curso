@@ -1,0 +1,16 @@
+nest generate
+
+nest generate module "name" -> nest g mo "name"
+
+nest generate controlles "name" -> nest g co "name" -> nest g co "name" --no-spec
+
+
+nest generate service "name" -> next g s "name" -> nest g s "name" --no-spec
+
+nest g pipe "name"
+
+nest g guard "name"
+
+nest g mi "name"
+
+nest g resource "name"
